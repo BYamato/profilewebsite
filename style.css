@@ -27,6 +27,7 @@ a {
   font-size: 32px;
   font-weight: bold;
   transition: 0.3 ease;
+  display: inline-block;
 }
 
 a:hover {
@@ -34,17 +35,15 @@ a:hover {
 }
 
 .container {
-  min-height: 6.5em;
-  vertical-align: middle;
-  margin: 32px AUTO;
-  width: 75%;
+  margin: 32px auto;
+  width: 900px;
 }
 
 .card {
   background-color: white;
   padding: 25px;
-  width: 600px;
-  margin: 20px AUTO;
+  /* width: 600px; */
+  margin: 20px auto;
   border-radius: 10PX;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
@@ -57,6 +56,11 @@ text-align: left;
 .text-red{
 color:red
 }
+
+.image-button{
+background-color: red;
+}
+
 
 ul {
   padding: 0;
@@ -71,23 +75,23 @@ li {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 1px solid #4f5d75;
+  box-shadow: 0 30px 30px rgba(0,0,0,.1);
 }
 
 @media (max-width: 960px) {
-  .card {
+  .container {
     width: 700px;
   }
 }
 
 @media (max-width: 720px) {
-  .card {
+  .container {
     width: 500px;
   }
 }
 
 @media (max-width: 540px) {
-  .card {
+  .container {
     width: 300px;
   }
 }
