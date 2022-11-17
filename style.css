@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400;600;700&family=Open+Sans:wght@300;400;500;700&display=swap');
+
+body {
+/* background-color: #ebebeb; */
+background-image: url("images/Savin-NY-Website-Background-Web.jpg");
+font-family: 'Noto Serif Oriya', serif;
+font-weight: 400;
+font-size: 16px;
+color: #495057;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #343a40;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #343a40;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #bfc0c0;
+  font-size: 32px;
+  font-weight: bold;
+  transition: 0.3 ease;
+}
+
+a:hover {
+  color:#284b63;
+}
+
+.container {
+  min-height: 6.5em;
+  vertical-align: middle;
+  margin: 32px AUTO;
+  width: 75%;
+}
+
+.card {
+  background-color: white;
+  padding: 25px;
+  width: 600px;
+  margin: 20px AUTO;
+  border-radius: 10PX;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.text-left {
+text-align: left;
+}
+
+.text-red{
+color:red
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+#profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #4f5d75;
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
